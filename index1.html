@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>爱鲜蜂</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<script src="lib/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/tabBar.css" />
+	
+	<script>
+			(function(window){
+				var winW = document.documentElement.clientWidth||document.body.clientWidth;
+				document.documentElement.style.fontSize = winW / 10 + "px";
+				window.onresize = function(){
+					var winW = document.documentElement.clientWidth ||document.body.clientWidth;
+					document.documentElement.style.fontSize=winW / 10 + "px";
+				}
+				
+			}(window));
+		</script>
+</head>
+<body>
+	<div class='container'></div>
+	<!--底部按钮部分-->
+		<nav class="tabBar">
+			
+			<ul>
+				<li class="barItem1">
+					<a href="#home" class="a"><div class="itemIcon1"></div>
+					首页</a>
+				</li>
+				<li class="barItem2">
+					<a href="#market" class="a"><div class="itemIcon2"></div>
+					闪送超市</a>
+				</li>
+				<li class="barItem3">
+					<a href="#freshOrder" class="a"><div class="itemIcon3"></div>
+					新鲜预订</a>
+				</li>
+				<li class="barItem4">
+					<a href="#shoppingCart" id="shop_cart" class="a">
+						<div class="itemIcon4">
+							<p class="redPoint">0</p>
+						</div>
+					购物车</a>
+				</li>
+				<li class="barItem5">
+					<a href="#my" class="a"><div class="itemIcon5"></div>
+					我的</a>
+				</li>
+			</ul>
+	</nav>
+
+	<script src="lib/require.js" data-main="app.js"></script>
+	<script>
+		$(function(){
+			var oldItem = $(".tabBar li:first-of-type");
+			$(".tabBar").on("click","li",function(e){	
+				//防止两次点击同一个item
+				if(oldItem[0] != this){			
+					//console.log($(this).index());
+					var oldItemIcon = oldItem.find("div"),
+					remFontSize = parseFloat($("html").css("fontSize"));
+					console.log(oldItemIcon.css("background-image"));
+				var strOld = oldItemIcon.css("background-image").substr(0,parseInt(oldItemIcon.css("background-image").indexOf("icon"))+4);
+//					console.log(strOld);
+					oldItemIcon.css({
+						backgroundImage:strOld+$(".tabBar li div").index(oldItemIcon)+".png"
+					});
+					
+				}
+				var curItemIcon = $(this).find("div");
+				var strNew = curItemIcon.css("background-image").substr(0,parseInt(curItemIcon.css("background-image").indexOf("icon"))+4);
+				curItemIcon.css({
+					backgroundImage:
+					strNew+
+					$(".tabBar li").index($(this))+
+					$(".tabBar li").index($(this))+
+					".png"
+				});
+//				var otherImgs = curItemIcon.parent().siblings("li").children("div");
+//				otherImgs.each(function(){
+//					otherImgs
+//				})
+				
+			   oldItem = $(this);
+			});
+			
+		});
+		
+		
+		
+	</script>
+	
+</body>
+</html>

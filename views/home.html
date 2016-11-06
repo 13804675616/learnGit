@@ -1,0 +1,141 @@
+<header class="home_header">
+	<div id="scan" class="home_scan" >
+		<div class="home_outerLine"><span class="home_line"></span></div>
+		<p>扫一扫</p>
+	</div>
+	<div class="home_place">
+		<a href="##" class="home_placeA">济远路附近</a><span></span></div>
+	<a class="home_search" href="#searchInput">
+		<img src="img/iconSearch.png" />搜索
+	</a>
+</header>
+<p class="home_help"></p>
+<div class="home_father">
+	<!--轮播图-->
+	<div class="swiper-container slider">
+		
+		<div class="swiper-wrapper">
+			
+		</div>
+		<div class="swiper-pagination">
+
+		</div>
+	</div>
+
+	<section class="home_menu">
+	</section>
+<p class="home_clearfix"></p>
+	<div class="home_top">
+		<img src="img/top.jpg" />
+		<div class="home_disc">
+			<span>特价</span>
+			<p>三元轻能优格乳9.9元/2瓶</p>
+		</div>
+	</div>
+
+	<section class="home_free">
+		<img src="img/free1.jpg" />
+		<img src="img/free2.jpg" />
+		<img src="img/free3.jpg" />
+	</section>
+
+	<p class="home_clearfix"></p>
+	<section class="home_activity">
+		<img src="img/acti1.jpg" />
+		<img src="img/acti2.jpg" />
+		<img src="img/acti3.jpg" />
+		<img src="img/acti4.jpg" />
+	</section>
+
+	<!--头条-->
+<div class="gray">
+	<!--优选水果-->
+	<section class="home_item1">
+		<!--标题-->
+		<h1><span>优选水果</span>
+				<div><span>更多</span><img src="img/more.png"/></div>
+			</h1>
+
+		<!--大图-->
+		<img src="img/main1.jpg" />
+
+		<div class="home_display">
+			<div class="home_dis1">
+				<img src="img/fruit1.jpg" />
+				<img src="img/fruit1.jpg"  class="img_hid img_hidSpe1"/>
+				<span>蜂觅·15度蜜梨</span>
+				<div class="home_title">
+					<span>精选</span>
+					<span>买一赠一</span>
+				</div>
+				<p>400-500g/盒</p>
+				<div class="home_price">
+					<span>￥14.6</span><span>￥16</span>
+				</div>
+				<div class="home_add">
+
+					<span class="add">+</span></div>
+			</div>
+
+			<div class="home_dis2">
+				<img src="img/fruit2.jpg" />
+				<img src="img/fruit2.jpg"  class="img_hid img_hidSpe2"/>
+				<span>蜂觅·15度蜜梨</span>
+				<div class="home_title">
+					<span>精选</span>
+					<span>买一赠一</span>
+				</div>
+				<p>400-500g/盒</p>
+				<div class="home_price">
+					<span>￥14.6</span><span>￥16</span>
+				</div>
+				<div class="home_add">
+					<span class="add">+</span></div>
+			</div>
+
+			<div class="home_dis3">
+				<img src="img/fruit3.jpg" />
+				<img src="img/fruit3.jpg"  class="img_hid img_hidSpe3"/>
+				<span>蜂觅·15度蜜梨</span>
+				<div class="home_title">
+					<span>精选</span>
+					<span>买一赠一</span>
+				</div>
+				<p>400-500g/盒</p>
+				<div class="home_price">
+					<span>￥14.6</span><span>￥16</span>
+				</div>
+				<div class="home_add">
+					<span class="add">+</span></div>
+			</div>
+
+		</div>
+	</section>
+
+	<fieldset>
+		<legend>
+			鲜蜂热卖
+		</legend>
+	</fieldset>
+
+	<ul class="home_hot">
+	</ul>
+	<p class="home_clearfix"></p>
+</div>
+	<div class="home_footer"></div>
+
+	<h6></h6>
+</div>
+<script type="text/javascript">
+		scan.addEventListener('click',function(){
+		wx.scanQRCode({
+		    needResult: 1, // 默认为0，扫描结果由微信处理，1则直接返回扫描结果，
+		    scanType: ["qrCode","barCode"], 
+		    success: function (res) {
+		    	var result = res.resultStr; 
+		    	alert(result);
+			}
+		});
+	})
+	
+</script>

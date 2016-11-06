@@ -1,0 +1,234 @@
+html,
+body,
+div,
+p,
+span,
+dl,
+dt,
+dd,
+ul,
+li,
+a,
+header,
+footer,
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+section,
+img,
+input {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul,
+li {
+  list-style: none;
+}
+.my_clearfix {
+  clear: both;
+}
+.my_box {
+  background-color: #efefef;
+}
+.my_box > div {
+  padding-left: 0.484375rem;
+}
+.my_top {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  background-color: #ffd600;
+}
+.my_top > div {
+  display: inline-block;
+  float: left;
+}
+.my_top .my_people {
+  margin-top: 0.640625rem;
+  margin-left: 0.5rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  background-image: url(../img/people.png);
+  background-size: 100% 100%;
+}
+.my_top .my_myInfo {
+  margin-top: 0.90625rem;
+  width: 3.3125rem;
+  height: 1.53125rem;
+  line-height: 1.53125rem;
+  margin-left: 0.46875rem;
+  font-family: "微软雅黑";
+}
+.my_top .my_myInfo p:first-of-type {
+  height: 0.390625rem;
+  line-height: 0.390625rem;
+  text-align: left;
+  color: white;
+  font-size: 0.34375rem;
+  font-weight: bold;
+}
+.my_top .my_myInfo p:last-of-type {
+  margin-top: 0.234375rem;
+  height: 0.90625rem;
+  line-height: 0.90625rem;
+  background-image: url(../img/registerVip.png);
+  background-size: 100% 100%;
+  color: #e64f1a;
+  font-size: 0.28125rem;
+  text-indent: 0.90625rem;
+}
+.my_top .my_arrow {
+  margin-top: 1.28125rem;
+  float: right;
+  width: 0.421875rem;
+  height: 0.65625rem;
+  background-image: url(../img/arrow.png);
+  background-size: 100% 100%;
+  margin-right: 0.625rem;
+}
+.my_help1 {
+  height: 4.21875rem;
+}
+.my_collection {
+  position: fixed;
+  top: 3.125rem;
+  width: 100%;
+  height: 1.09375rem;
+  line-height: 1.09375rem;
+  background-color: #f3c800;
+  padding-left: 0 !important;
+}
+.my_collection a {
+  margin-top: 0.265625rem;
+  display: inline-block;
+  font-size: 0.328125rem;
+  float: left;
+  width: 4.984375rem;
+  height: 0.671875rem;
+  line-height: 0.671875rem;
+  text-indent: 2.21875rem;
+  color: white;
+}
+.my_collection a:first-of-type {
+  border-right: 0.03125rem solid #ffffff;
+  background: url(../img/goodsCollection.png) no-repeat;
+  background-size: 0.5625rem 0.53125rem;
+  background-position-x: 1.296875rem;
+}
+.my_collection a:last-of-type {
+  background: url(../img/storeCollection.png) no-repeat;
+  background-size: 0.5625rem 0.53125rem;
+  background-position-x: 1.296875rem;
+}
+.my_myOrder {
+  padding-left: 0 !important;
+  text-indent: 0.484375rem;
+  margin-top: 0.28125rem;
+  line-height: 1.53125rem;
+  font-size: 0.40625rem;
+  background-color: white;
+}
+.my_myOrder a {
+  height: 1.53125rem;
+  color: #999999;
+  float: right;
+  margin-right: 0.953125rem;
+}
+.my_orders {
+  text-indent: 0;
+  height: 2.234375rem;
+  background-color: white;
+  border-top: 0.03125rem solid #e0e0e0;
+}
+.my_orders dl {
+  float: left;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  font-size: 0.359375rem;
+}
+.my_orders dl dt {
+  height: 1.234375rem;
+}
+.my_orders dl dt img {
+  margin-top: 0.625rem;
+  width: 0.765625rem;
+  height: 0.765625rem;
+}
+.my_orders dl dd {
+  height: 1rem;
+  line-height: 1rem;
+}
+.my_other {
+  padding-left: 0 !important;
+  margin-top: 0.3125rem;
+  background-color: white;
+  font-size: 0.359375rem;
+}
+.my_other .my_up {
+  height: 3.140625rem;
+  border-bottom: 0.03125rem solid #e0e0e0;
+}
+.my_other .my_up dl {
+  text-align: center;
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+.my_other .my_up dl dt {
+  height: 2rem;
+}
+.my_other .my_up dl dt img {
+  margin-top: 0.96875rem;
+  width: 0.609375rem;
+  height: 0.734375rem;
+}
+.my_other .my_down {
+  background-color: white;
+  height: 3.140625rem;
+}
+.my_other .my_down dl {
+  float: left;
+  text-align: center;
+  width: 25%;
+  height: 100%;
+}
+.my_other .my_down dl dt {
+  height: 1.96875rem;
+}
+.my_other .my_down dl dt img {
+  margin-top: 1rem;
+  width: 0.65625rem;
+  height: 0.671875rem;
+}
+.my_exit {
+  margin-top: 0.9375rem;
+  background-color: #fff;
+  height: 1.53125rem;
+  line-height: 1.53125rem;
+  font-family: "微软雅黑";
+  font-size: 0.421875rem;
+  text-align: center;
+  margin-bottom: 0.3125rem;
+}
+.my_space {
+  background-color: #efefef;
+  height: 1.5625rem;
+}

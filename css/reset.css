@@ -1,0 +1,41 @@
+html,
+body,
+div,
+p,
+span,
+dl,
+dt,
+dd,
+ul,
+li,
+a,
+header,
+footer,
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+section,
+img,
+input {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul,
+li {
+  list-style: none;
+}
+.clearfix {
+  clear: both;
+}

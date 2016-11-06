@@ -1,0 +1,90 @@
+@import "reset";
+body {
+    font-size: 30/64rem;
+    font-family: "宋体";
+    background-color: #efefef;
+}
+.help {
+    height: 110/64rem;
+}
+.title {
+    width: 100%;
+    position: fixed;
+    font-size: 30/64rem;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    height: 110/64rem;
+    line-height: 110/64rem;
+    background-color: #f9fafd;
+    border-bottom: 2/64rem solid #efefef;
+    span {
+        float: left;
+        width: 60/64rem;
+        height: 60/64rem;
+        margin-top: 30/64rem;
+        background: url("../img/back.png") no-repeat;
+        background-size: 60/64rem;
+        margin-left: 20/64rem;
+    }
+    p {
+        margin-left: 20/64rem;
+        display: inline-block;
+    }
+    a {
+        float: right;
+        font-weight: normal;
+        margin-right: 60/64rem;
+        font-family: "宋体";
+        color: #777;
+    }
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    td {
+        border-bottom: 2/64rem solid #ddd;
+        input[type=text] {
+            height: 16/32rem;
+            width: 100%;
+            border: none;
+            font-size: 28/64rem;
+        }
+        span {
+            display: inline-block;
+            vertical-align: bottom;
+            margin-right: 7/64rem;
+            width: 16.38/32rem;
+            height: 16.38/32rem;
+            background-color: #fff;
+            border: 2/64rem solid #aaa;
+            border-radius: 50%;
+        }
+        label {
+            margin-right: 15/64rem;
+        }
+        select {
+            appearance: none;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            border: none;
+            width: 100%;
+            background-color: transparent;
+            font-size: 30/64rem;
+        }
+        &:nth-of-type(odd) {
+            text-indent: 35/64rem;
+            //text-align: center;
+            width: 100/32rem;
+            height: 43/32rem;
+        }
+        &:nth-of-type(even) {
+            width: 216/32rem;
+        }
+    }
+    .sel {
+        background: url("../img/rightArrow.png") no-repeat right center;
+        background-size:50/64rem;
+    }
+}

@@ -1,0 +1,92 @@
+
+.ap_clearfix {
+  clear: both;
+}
+body {
+  font-size: 0.46875rem;
+  font-family: "宋体";
+  background-color: #efefef;
+}
+.ap_help {
+  height: 1.71875rem;
+}
+.ap_title {
+  width: 100%;
+  position: fixed;
+  font-size: 0.46875rem;
+  text-align: center;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  height: 1.71875rem;
+  line-height: 1.71875rem;
+  background-color: #f9fafd;
+  border-bottom: 0.03125rem solid #efefef;
+}
+.ap_title .ap_back {
+  float: left;
+  width: 0.9375rem;
+  height: 0.9375rem;
+  margin-top: 0.46875rem;
+  background: url("../img/back.png") no-repeat;
+  background-size: 0.9375rem;
+  margin-left: 0.3125rem;
+}
+.ap_title p {
+  margin-left: 0.3125rem;
+  display: inline-block;
+}
+.ap_title a {
+  float: right;
+  font-weight: normal;
+  margin-right: 0.9375rem;
+  font-family: "宋体";
+  color: #777;
+}
+.ap_table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+.ap_table td {
+  border-bottom: 0.03125rem solid #dddddd;
+}
+.ap_table td input[type=text] {
+  height: 0.5rem;
+  width: 100%;
+  border: none;
+  font-size: 0.4375rem;
+}
+.ap_table td span {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 0.109375rem;
+  width: 0.511875rem;
+  height: 0.511875rem;
+  background-color: #fff;
+  border: 0.03125rem solid #aaaaaa;
+  border-radius: 50%;
+}
+.ap_table td label {
+  margin-right: 0.234375rem;
+}
+.ap_table td select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  font-size: 0.46875rem;
+}
+.ap_table td:nth-of-type(odd) {
+  text-indent: 0.546875rem;
+  width: 3.125rem;
+  height: 1.34375rem;
+}
+.ap_table td:nth-of-type(even) {
+  width: 6.75rem;
+}
+.ap_table .ap_sel {
+  background: url("../img/rightArrow.png") no-repeat right center;
+  background-size: 0.78125rem;
+}

@@ -1,0 +1,314 @@
+@import "reset";
+body{
+    background-color: #efefef;
+}
+#box>div{
+        padding-left:31/64rem;
+   
+}
+
+.top{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    >div{
+        display: inline-block;
+        float:left;
+    
+    }
+    text-align: center;
+    height:200/64rem;
+//  font-size:0;
+    line-height:200/64rem;
+    background-color:#ffd600;
+    
+    
+    .people{
+        margin-top:41/64rem;
+        width:120/64rem;
+        height:120/64rem;
+        line-height:120/64rem;
+//      border:1px solid green;
+        background-image: url(../img/people.png);
+        background-size: 100% 100%;
+    }
+//  我的信息
+    .myInfo{
+        margin-top:58/64rem;
+        width:212/64rem;
+        height:98/64rem;
+        line-height:98/64rem;
+        
+//      border:1px solid green;
+        margin-left:30/64rem;
+        font-family: "微软雅黑";
+
+        p:first-of-type{
+            height:25/64rem;
+            line-height:25/64rem;
+//          border:1px solid green;
+            text-align: left;
+            color:white;
+            font-size:22/64rem;
+            font-weight:bold;
+        }
+        
+        p:last-of-type{
+            margin-top:15/64rem;
+            height:58/64rem;
+            line-height: 58/64rem;
+            background-image: url(../img/registerVip.png);
+            background-size: 100% 100%;
+            color:#e64f1a;
+            font-size:18/64rem; 
+            text-indent: 58/64rem;
+        }
+    }
+    .arrow{
+        margin-top:82/64rem;
+        float: right;
+        width:27/64rem;
+        height:42/64rem;
+        background-image: url(../img/arrow.png);
+        background-size: 100% 100%;
+//      border:1px solid green;
+        margin-right:40/64rem;
+        
+    }
+}
+//.help{
+//  height: 100/32rem;
+//}
+.help1{
+    height: 270/64rem;
+}
+//黄色部分两个按钮
+.collection{
+    position: fixed;
+    top: 100/32rem;
+    width: 100%;
+    height:70/64rem;
+    line-height:70/64rem;
+    background-color:#f3c800;
+    padding-left: 0 !important;
+    
+    
+    a{
+        margin-top:17/64rem;
+        display:inline-block;
+        font-size:21/64rem;
+        float: left;
+        width:319/64rem;
+        height:43/64rem;
+        line-height:43/64rem;
+        text-indent: 142/64rem;
+        color: white;
+        
+
+        
+    }
+    a:first-of-type{
+        border-right:2/64rem solid white;
+        background: url(../img/goodsCollection.png) no-repeat;
+        background-size:36/64rem 34/64rem;;
+       background-position-x: 83/64rem;
+        
+    }
+  a:last-of-type{
+      background: url(../img/storeCollection.png) no-repeat;
+      background-size:36/64rem 34/64rem;;
+      background-position-x: 83/64rem;
+  }
+    
+}
+
+//我的订单、
+.myOrder{
+    padding-left: 0 !important;
+    text-indent: 31/64rem;
+    
+    margin-top:18/64rem;
+//  
+    line-height: 98/64rem;
+    font-size:26/64rem;
+    background-color:white;
+    
+    
+    a{
+        height:98/64rem;
+        color:#999999;
+        float: right;
+        margin-right: 61/64rem;
+        
+    }
+}
+//中间第一排小图标
+.orders{
+    text-indent: 0;
+    height:143/64rem;
+    background-color:white;
+    border-top:2/64rem solid #e0e0e0;
+    
+    
+    dl{
+        float: left;
+        width:25%;
+        height:100%;
+        text-align: center;
+        font-size:23/64rem;
+//      background-color:pink;
+        
+        dt{
+//          width:38/64rem;
+            height:79/64rem;
+//          background-color:pink;
+//          border:1px solid green;
+            img{
+                margin-top:40/64rem;
+                width:49/64rem;
+                height:49/64rem;
+            }
+        }
+        
+        dd{
+            height:64/64rem;
+            line-height: 64/64rem;
+
+        }
+        
+    }
+    
+}
+
+
+//中间第二排小图标
+.other{
+    padding-left:0 !important;
+    margin-top:20/64rem;
+    background-color: white;
+    font-size:23/64rem;
+    
+    .up{
+        height:201/64rem;
+//      background-color: red;
+        border-bottom:2/64rem solid #e0e0e0;
+        dl{
+            text-align: center;
+            float: left;
+           
+            width:25%;
+            height:100%;
+            
+            dt{
+                 height:128/64rem;
+                img{
+                    margin-top: 62/64rem;
+                    width:39/64rem;
+                    height: 47/64rem;
+                }
+            }
+
+            
+        }
+    }
+//  下面小图标
+    .down{
+        background-color: white;
+        height:201/64rem;
+        
+        
+        dl{
+            float: left;
+            text-align: center;
+            width:25%;
+            height:100%;
+            
+            dt{
+                height:126/64rem;
+                
+                img{
+                    margin-top:64/64rem;
+                    width:42/64rem;
+                    height:43/64rem;
+                    
+                }
+            }
+        }
+        
+    }
+}
+
+//退出当前账号
+.exit{
+    margin-top:60/64rem;
+    background-color: #fff;
+     height:98/64rem;
+    line-height: 98/64rem;
+    font-family: "微软雅黑";
+    font-size:27/64rem ;
+    text-align: center;
+    margin-bottom: 20/64rem;
+
+    
+}
+.space{
+
+    background-color: #efefef;
+    height:100/64rem;
+}
+
+
+//以下是底部导航部分
+
+.tabBar{
+    width: 10rem;
+    height: 100 / 64rem;
+    position: fixed;
+    background-color: rgba(246,246,246,.95);
+    bottom: 0;
+    font-size: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-bottom: 12/64rem;
+   
+   li{
+        float: left;
+        position: relative;
+        font-size: 22/64rem;
+        color: #777;
+        width: 20%;
+        margin-top: 13/64rem;
+        text-align: center;
+        background: no-repeat;
+         box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        div{
+            margin-left: 44/64rem;
+            margin-bottom: 15/64rem;
+            width: 40/64rem;
+            height: 39/64rem;
+          
+            background: no-repeat center;
+        background-size: 40/64rem;
+        }
+           
+        >.itemIcon1{
+         background-image: url(../img/icon1.png);
+        }
+        >.itemIcon2{
+         background-image: url(../img/icon2.png);
+        }
+        >.itemIcon3{
+         background-image: url(../img/icon3.png);
+        }
+        >.itemIcon4{
+         background-image: url(../img/icon4.png);
+        }
+        >.itemIcon5{
+         background-image: url(../img/icon5.png);
+        }
+    }
+
+}
+

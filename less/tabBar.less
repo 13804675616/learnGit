@@ -1,0 +1,159 @@
+body{
+    position: relative;
+}
+header{
+    height: 110/64rem;
+    z-index: 5;
+    width: 100%;
+    background-color: #ffd600;
+    position: fixed;
+    left: 0;
+    top: 0;
+   
+    >div{
+        float: left;
+    }
+    .place{
+        position: relative;
+       
+        a{ 
+            width: 302/64rem;
+        text-align: center;
+        display: inline-block;
+            font-size: 30/64rem;
+            font-weight: bold;
+            font-family: "微软雅黑";
+            letter-spacing: 1/64rem;
+        }
+        span{
+            position: absolute;
+            left: 230/64rem;
+            top: 40/64rem;
+            width: 0px;
+            height: 0px;
+            border: 18/64rem solid #000;
+            border-left: 12/64rem solid transparent;
+            border-right: 12/64rem solid transparent;
+            border-bottom: 8/64rem solid transparent;
+        }
+    }
+    
+    .scan{
+        font-family: "微软雅黑";
+        padding-left: 14/64rem;
+        padding-top: 16/64rem;
+        width: 171/64rem;
+        height: 100%;
+        box-sizing: border-box;
+
+        .outerLine{
+            width: 32/64rem;
+            height: 32/64rem;
+            border:5/64rem dashed #493e36;
+            border-radius: 4/64rem;
+            position: relative;
+
+        }
+         .line{
+             position: absolute;
+             left: 0;
+             width: 35/64rem;
+              margin-top: 15/64rem;
+             border-bottom: 1px solid #544831;
+           }
+        p{
+            display: block;
+            margin-top: 11/64rem;
+            font-size: 13/64rem;
+            width: 80/64rem;
+    
+        }  
+    }
+    .search{
+        position: absolute;
+        right: 0;
+        top: 15/64rem;
+        padding-left: 110/64rem;
+        width: 167/64rem;
+        letter-spacing: 2/64rem;
+        box-sizing: border-box;
+        font-size: 13/64rem;
+        img{
+            display: block;
+            width: 40/64rem;
+            height: 38/64rem;
+            margin-bottom: 10/64rem;
+        }
+    }
+}
+
+
+
+
+
+
+.tabBar{
+    width: 10rem;
+    height: 100 / 64rem;
+    position: fixed;
+    background-color: rgba(246,246,246,.95);
+    bottom: 0;
+    font-size: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-bottom: 12/64rem;
+   
+   li{
+        float: left;
+        position: relative;
+        font-size: 22/64rem;
+        color: #777;
+        width: 20%;
+        margin-top: 13/64rem;
+        text-align: center;
+        background: no-repeat;
+         box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        div{
+            margin-left: 44/64rem;
+            margin-bottom: 15/64rem;
+            width: 40/64rem;
+            height: 39/64rem;
+          
+            background: no-repeat center;
+        background-size: 40/64rem;
+        }
+           
+        >.itemIcon1{
+         background-image: url(../img/icon1.png);
+        }
+        >.itemIcon2{
+         background-image: url(../img/icon2.png);
+        }
+        >.itemIcon3{
+         background-image: url(../img/icon3.png);
+        }
+        >.itemIcon4{
+            .redPoint{
+                position: absolute;
+                background-color: #ff4400;
+                font-weight: bold;
+                color: #fff;
+              padding-top: 5/64rem;
+               padding-left: 5/64rem;
+               box-sizing: border-box;
+                right: 0;
+                top: -10/64rem;
+                width: 21.59/32rem;
+                height: 21/32rem;
+                border-radius: 50%;
+            }
+            
+         background-image: url(../img/icon4.png);
+        }
+        >.itemIcon5{
+         background-image: url(../img/icon5.png);
+        }
+    }
+
+}

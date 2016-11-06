@@ -1,0 +1,84 @@
+@import "reset";
+html{
+    background-color: #ffd82b;
+}
+#box{
+    border:1/64rem solid transparent;
+    height:624/64rem;
+    background:url(../img/welcome.png) no-repeat;
+    background-position:127/64rem 277/64rem;
+    background-size: 387/64rem 194/64rem;
+    
+    
+    p:first-of-type{
+        height:74/64rem;
+        margin-top: 512/64rem;
+        background: url(../img/welcomePosition.png) no-repeat;
+        background-position:284/64rem 0;
+        background-size: 73/64rem 73/64rem;
+    }
+    p:last-of-type{
+        height: 43/64rem;
+        line-height: 43/64rem;
+        text-align: center;
+        font-size: 28/64rem;
+        letter-spacing: 1/64rem;
+        font-family: "微软雅黑";
+        
+    }
+    
+    
+}
+
+
+//定位时的弹窗  先隐藏
+.warnBig{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+    .warnAlert{
+        width: 542/64rem;
+        height: 298/64rem;
+        margin: 0 auto;
+        background-color: rgba(250,250,198,.95);
+        border-radius: 10/64rem;
+        margin-top: 287/64rem;
+        div{
+            float: left;
+            &:first-of-type{
+                padding: 45/64rem 30/64rem;
+                line-height: 40/64rem;
+                text-align: center;
+                font-size: 30/64rem;
+                font-family: "黑体";
+                font-weight: bold;
+                white-space: pre-line;
+                width: 89%;
+                border-bottom: 1px solid rgba(255,214,0,.95);
+            }
+            &:nth-of-type(2){
+                width: 49.4%;
+                font-size: 30/64rem;
+                color: #007aff;
+                font-weight: bold;
+                line-height: 80/64rem;
+                text-align: center;
+                border-right: 1px solid rgba(255,214,0,.95);
+            }
+            &:last-of-type{
+                width: 49.4%;
+                font-size: 30/64rem;
+                font-weight: bold;
+                color: #007aff;
+                text-align: center;
+                line-height: 80/64rem;
+                
+            }
+        }
+    }
+    
+}

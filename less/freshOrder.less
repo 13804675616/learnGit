@@ -1,0 +1,132 @@
+@import "reset";
+body{
+    background-color: #eeeef0;
+}
+.help{
+    height: 55/32rem;
+}
+header.top{
+    position: fixed;
+    width: 100%;
+    height: 55/32rem;
+    background-color: #f9fafd;
+    border-bottom: 2/64rem solid #e0e0e0; 
+    font-size: 26/64rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 55/32rem;
+    margin-bottom: 10/64rem;
+}
+nav{
+    margin-bottom: 16/64rem;
+    margin-top: 10/64rem;
+    background-color: #fff;
+    height: 136/64rem;
+    width: 100%;
+    border-top: 2/64rem solid #a2a2a2;
+     border-bottom: 2/64rem solid #a2a2a2;
+     ul{
+         height: 100%;
+         span{
+             float: left;
+             height: 2/64rem;
+             background-color: #d1d1d1;
+             width: 100%;
+             
+         }
+         li{
+             margin: 0 11.5/64rem;
+             float: left;
+             height: 67/64rem;
+             width: 105/64rem;
+             text-align: center;
+             line-height: 67/64rem;
+             font-size: 23/64rem;
+             color: #989898;
+             &:first-of-type{
+                 color: #595656;
+                 border-bottom: 2/64rem solid #595656;
+             }
+         }
+     }
+}
+.fruits{
+    
+    h6{
+        height: 59/64rem;
+        background-color: #fff;
+        border-top: 2/64rem solid #a0a0a0;
+        font-size: 23/64rem;
+        font-weight: normal;
+        padding-left: 17/64rem;
+        padding-top: 19/64rem;
+        box-sizing: border-box;
+        color: #8c8c8c;
+        span{
+            
+            float: left;
+            margin-right: 19/64rem;
+            width: 10/64rem;
+            height: 25/64rem;
+            background-color: #2aaef8;
+        }
+    }
+    dl{
+        margin-top: 2/64rem;
+        float: left;
+        background-color: #fff;
+        padding:0 24/32rem;
+        width: 100%;
+        height: 110/32rem;
+        box-sizing: border-box;
+        img{
+            width: 108.8/32rem;
+            height: 108.8/32rem;
+        }
+        dt{
+            float: left;
+        }
+        dd{
+            float: left;
+            position: relative;
+            width: 273/64rem;
+            font-size: 23/64rem;
+            line-height: 50/64rem;
+            color: #777777;
+            .cart{
+                position: absolute;
+                right: 0;
+                bottom: -30/64rem;
+                img{
+                     width: 42/32rem;
+                    height: 42/32rem;
+                }
+               
+            }
+            .fruitPrice{
+                margin-top: 45/64rem;
+                display: inline-block;
+                font-size: 20/64rem;
+                span{
+                    &:first-of-type{
+                        margin-right: -17/64rem;
+                        color: #f1361d;
+                    }
+                    &:nth-of-type(2){
+                        color:  #f1361d;
+                        font-size: 34/64rem;
+                        font-family: "黑体";
+                        font-weight: bold;
+                        margin-right: -10/64rem;
+                    }
+                    &:last-of-type{
+                        color: #999;
+                        text-decoration: line-through;
+                    }
+                }
+              
+            }
+        }
+    }
+}
+@import "tabBar";

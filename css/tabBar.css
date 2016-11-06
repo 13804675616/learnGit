@@ -1,0 +1,150 @@
+body {
+  position: relative;
+}
+header {
+  height: 1.71875rem;
+  z-index: 5;
+  width: 100%;
+  background-color: #ffd600;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+header > div {
+  float: left;
+}
+header .place {
+  position: relative;
+}
+header .place a {
+  width: 4.71875rem;
+  text-align: center;
+  display: inline-block;
+  font-size: 0.46875rem;
+  font-weight: bold;
+  font-family: "微软雅黑";
+  letter-spacing: 0.015625rem;
+}
+header .place span {
+  position: absolute;
+  left: 3.59375rem;
+  top: 0.625rem;
+  width: 0px;
+  height: 0px;
+  border: 0.28125rem solid #000000;
+  border-left: 0.1875rem solid transparent;
+  border-right: 0.1875rem solid transparent;
+  border-bottom: 0.125rem solid transparent;
+}
+header .scan {
+  font-family: "微软雅黑";
+  padding-left: 0.21875rem;
+  padding-top: 0.25rem;
+  width: 2.671875rem;
+  height: 100%;
+  box-sizing: border-box;
+}
+header .scan .outerLine {
+  width: 0.5rem;
+  height: 0.5rem;
+  border: 0.078125rem dashed #493e36;
+  border-radius: 0.0625rem;
+  position: relative;
+}
+header .scan .line {
+  position: absolute;
+  left: 0;
+  width: 0.546875rem;
+  margin-top: 0.234375rem;
+  border-bottom: 1px solid #544831;
+}
+header .scan p {
+  display: block;
+  margin-top: 0.171875rem;
+  font-size: 0.203125rem;
+  width: 1.25rem;
+}
+header .search {
+  position: absolute;
+  right: 0;
+  top: 0.234375rem;
+  padding-left: 1.71875rem;
+  width: 2.609375rem;
+  letter-spacing: 0.03125rem;
+  box-sizing: border-box;
+  font-size: 0.203125rem;
+}
+header .search img {
+  display: block;
+  width: 0.625rem;
+  height: 0.59375rem;
+  margin-bottom: 0.15625rem;
+}
+.tabBar {
+	z-index: 10;
+  width: 10rem;
+  height: 1.5625rem;
+  position: fixed;
+  background-color: rgba(246, 246, 246, 0.95);
+  bottom: 0;
+  font-size: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-bottom: 0.1875rem;
+}
+/*.helpBottom{
+	height: 1.5625rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}*/
+.tabBar li {
+  float: left;
+  position: relative;
+  font-size: 0.34375rem;
+  color: #777;
+  width: 20%;
+  margin-top: 0.203125rem;
+  text-align: center;
+  background: no-repeat;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.tabBar li div {
+  margin-left: 0.6875rem;
+  margin-bottom: 0.234375rem;
+  width: 0.625rem;
+  height: 0.609375rem;
+  background: no-repeat center;
+  background-size: 0.625rem;
+}
+.tabBar li  .itemIcon1 {
+  background-image: url(../img/icon0.png);
+}
+.tabBar li  .itemIcon2 {
+  background-image: url(../img/icon1.png);
+}
+.tabBar li  .itemIcon3 {
+  background-image: url(../img/icon2.png);
+}
+.tabBar li  .itemIcon4 {
+  background-image: url(../img/icon3.png);
+}
+.tabBar li  .itemIcon4 .redPoint {
+  position: absolute;
+  background-color: #ff4400;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 0.078125rem;
+  padding-left: 0.078125rem;
+  box-sizing: border-box;
+  right: 0;
+  top: -0.15625rem;
+  width: 0.6746875rem;
+  height: 0.65625rem;
+  border-radius: 50%;
+}
+.tabBar li  .itemIcon5 {
+  background-image: url(../img/icon4.png);
+}

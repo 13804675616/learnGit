@@ -1,0 +1,207 @@
+html,
+body,
+div,
+p,
+span,
+dl,
+dt,
+dd,
+ul,
+li,
+a,
+header,
+footer,
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+section,
+img,
+input {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul,
+li {
+  list-style: none;
+}
+.sr_clearfix {
+  clear: both;
+}
+body {
+  font-family: "微软雅黑";
+  background-color: #efefef;
+}
+.sr_help {
+  height: 1.40625rem;
+}
+.sr_header {
+  width: 100%;
+  letter-spacing: 0.03125rem;
+  position: fixed;
+  background-color: #f9fafd;
+  height: 1.40625rem;
+  text-align: center;
+  border-bottom: 0.03125rem solid #e0e0e0;
+}
+.sr_header .back{
+  background: url(../img/go-left.png) no-repeat center;
+  margin-top: 0.5rem;
+   float: left;
+  background-size: 0.390625rem 0.671875rem;
+  width: 0.6375rem;
+  height: 0.625rem;
+  margin-left: 0.2rem;
+ 
+}
+.sr_header input {
+  vertical-align: middle;
+  width: 6.1875rem;
+  height: 0.8125rem;
+  border-radius: 0.15625rem;
+  border: 0.03125rem solid #e0e0e0;
+  margin-bottom: 0.203125rem;
+  text-indent: 0.765625rem;
+  background: url(../img/search.png) no-repeat;
+  background-size: 0.40625rem 0.421875rem;
+  background-position: 0.203125rem 0.21875rem;
+  font-size: 0.390625rem;
+}
+.sr_header a {
+  float: right;
+  margin-top: 0.46875rem;
+  margin-right: 0.78125rem;
+  display: inline-block;
+  font-family: "华文细黑";
+  color: #777777;
+  font-size: 0.421875rem;
+}
+.sr_result {
+  font-size: 0;
+  overflow: hidden;
+  padding: 0.296875rem;
+  border: 0.015625rem solid transparent;
+}
+.sr_result > div {
+  font-size: 0.34375rem;
+  width: 4.515625rem;
+  height: 7.0625rem;
+  float: left;
+  background-color: white;
+  margin-bottom: 0.3125rem;
+}
+.sr_result > div:first-of-type .sr_picture {
+  height: 4.265625rem;
+  background: url(../img/mooncake1.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.sr_result > div:nth-of-type(2) .sr_picture {
+  height: 4.265625rem;
+  background: url(../img/mooncake1.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.sr_result > div:nth-of-type(3) .sr_picture {
+  height: 4.265625rem;
+  background: url(../img/mooncake1.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.sr_result > div:nth-child(2n) {
+  margin-left: 0.3125rem;
+}
+.sr_result > div:nth-child(2n) .sr_picture {
+  height: 4.265625rem;
+  background: url(../img/mooncake2.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.sr_name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  height: 0.78125rem;
+  line-height: 0.78125rem;
+  margin-left: 0.1875rem;
+  font-size: 0.328125rem;
+  color: #232b33;
+}
+.sr_goodSelect {
+  margin-left: 0.1875rem;
+  border-radius: 0.125rem;
+  border: 0.03125rem solid #ff0000;
+  width: 0.828125rem;
+  height: 0.40625rem;
+  color: #ff0000;
+}
+.sr_price {
+  height: 0.78125rem;
+  line-height: 0.78125rem;
+  margin-left: 0.1875rem;
+  font-size: 0.328125rem;
+  color: #999999;
+}
+.sr_priceInfo {
+  margin-left: 0.1875rem;
+  font-size: 0.28125rem;
+  color: #b0b0b0;
+  text-decoration: line-through;
+}
+.sr_priceInfo .sr_priceNum {
+  display: inline-block;
+  margin-right: 0.109375rem;
+  color: #ff400b;
+  text-decoration: none;
+}
+.sr_priceInfo .sr_remedy {
+  font-size: 0.34375rem;
+  color: #ff4400;
+  float: right;
+  margin-right: 0.34375rem;
+  text-decoration: none;
+}
+.sr_noMore p {
+  line-height: 1.5625rem;
+  margin-top: 0.625rem;
+  text-align: center;
+  color: #b0b0b0;
+  font-size: 0.46875rem;
+  margin-bottom: 0.78125rem;
+}
+.sr_outer {
+  position: fixed;
+  right: 0.3125rem;
+  bottom: 0.3125rem;
+  width: 2.2125rem;
+  height: 2.2125rem;
+  background-color: #FFD600;
+  border-radius: 50%;
+  border: 0.03125rem solid #ffffff;
+  text-align: center;
+}
+.sr_outer img {
+  margin-top: 0.234375rem;
+  width: 1.71875rem;
+  height: 1.71875rem;
+}
+.sr_outer .sr_inner {
+  position: absolute;
+  left: 1.5625rem;
+  top: 0;
+  width: 0.6746875rem;
+  height: 0.65625rem;
+  line-height: 0.65625rem;
+  color: #fff;
+  background-color: #ff4400;
+  border-radius: 50%;
+  font-size: 0.359375rem;
+  font-weight: bold;
+}

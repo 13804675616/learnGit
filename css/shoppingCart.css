@@ -1,0 +1,325 @@
+html,
+body,
+div,
+p,
+span,
+dl,
+dt,
+dd,
+ul,
+li,
+a,
+header,
+footer,
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+section,
+img,
+input {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  background-color: #efefef;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul,
+li {
+  list-style: none;
+}
+.ct_clearfix {
+  clear: both;
+}
+#ct_box  {
+  font-size: 0.46875rem;
+  font-family: "宋体";
+  background-color: #efefef;
+}
+#ct_box > div {
+  padding-left: 0.46875rem;
+}
+.ct_help {
+  height: 1.71875rem;
+}
+.ct_title {
+	z-index: 10;
+  width: 100%;
+  position: fixed;
+  font-size: 0.46875rem;
+  text-align: center;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  height: 1.71875rem;
+  line-height: 1.71875rem;
+  background-color: #f9fafd;
+  border-bottom: 0.03125rem solid #efefef;
+}
+.ct_title span {
+  float: left;
+  width: 0.9375rem;
+  height: 0.9375rem;
+  margin-top: 0.46875rem;
+  background: url(../img/back.png) no-repeat;
+  background-size: 0.78125rem;
+}
+.ct_title p {
+  margin-left: -1.5625rem;
+  display: inline-block;
+}
+.ct_needLocation {
+  display: block;
+  background-color: #fff;
+  height: 1.515625;
+  line-height: 1.515625rem;
+  color: #e64f1a;
+  border-bottom: 0.3125rem solid #efefef;
+}
+.ct_tle {
+  display: none;
+  margin-top: -0.15625rem;
+  width: 100%;
+  padding: 0.03125rem 0.46875rem;
+  font: 16px/1.5 "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif, 'Microsoft Yahei', Simsun;
+  font-size: 0.46875rem;
+  background: url(../img/getPlaceBorder.png) repeat-x 0 2.421875rem, url(../img/getPlaceBorder.png) repeat-x 0 -0.015625rem;
+  background-size: 2rem;
+  background-color: #fff;
+  position: relative;
+  border-bottom: 0.3125rem solid #efefef;
+}
+.ct_tdspe {
+  display: none;
+  position: absolute;
+  right: -0.625rem;
+  top: 2.8125rem;
+  font-size: 0.46875rem;
+  font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif, 'Microsoft Yahei', Simsun;
+}
+.ct_tdspe img {
+  width: 0.859375rem;
+  margin-left: 0.140625rem;
+  height: 0.359375rem;
+}
+.ct_quickSend {
+  height: 1.875rem;
+  border-bottom: 0.03125rem solid #dddddd;
+  background-color: #fff;
+}
+.ct_quickSend p {
+  font-size: 0.3125rem;
+  color: #9f9f9f;
+  height: 0.921875rem;
+  line-height: 0.921875rem;
+}
+.ct_quickSend p span {
+  display: inline-block;
+  height: 0.328125rem;
+  width: 0.125rem;
+  border-radius: 0.046875rem;
+  background-color: #ffd600;
+  margin-right: 0.1875rem;
+}
+.ct_quickSend p:last-of-type {
+  height: 0.796875rem;
+  font-size: 0.296875rem;
+  line-height: 0.859375rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ct_time {
+  background-color: #fff;
+  height: 1.9375rem;
+  line-height: 1.9375rem;
+  font-size: 0.46875rem;
+  border-bottom: 0.03125rem solid #efefef;
+}
+.ct_time span:first-of-type {
+  color: #e64f1a;
+  display: inline-block;
+  margin-left: 0.40625rem;
+}
+.ct_time span:last-of-type {
+  display: inline-block;
+  float: right;
+  margin-right: 0.46875rem;
+}
+.ct_remark {
+  background-color: #fff;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  border-bottom: 0.03125rem solid #efefef;
+  font-size: 0.46875rem;
+}
+.ct_remark input {
+  color: #a9a9a9;
+  border: 0.015625rem solid #a9a9a9;
+  height: 1rem;
+  width: 5.78125rem;
+  margin-left: 0.421875rem;
+  text-indent: 0.171875rem;
+  border-radius: 0.15625rem;
+}
+.ct_item {
+  background-color: #fff;
+}
+.ct_li {
+	position: relative;
+  margin-left: -0.390625rem;
+  height: 2.5rem;
+  border-bottom: 2px solid #efefef;
+  padding: 0.3125rem;
+}
+.ct_item ul li div {
+  display: inline-block;
+  float: left;
+}
+.ct_picture {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 0.3125rem;
+}
+.ct_picture img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.ct_info {
+  height: 2.5rem;
+  font-family: "宋体";
+}
+.ct_info p {
+	display: inline-block;
+/*	width: 1rem;*/
+  height: 1.3125rem;
+  line-height: 1.3125rem;
+  overflow: hidden;
+}
+.ct_tit{
+	display: inline-block;
+	width: 4rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 0.5rem;
+}
+.ct_priceP {
+	width: 2rem;
+  font-size: 0.34375rem;
+  height: 1.046875rem;
+  line-height: 1.046875rem;
+  margin-top: 1rem;
+}
+.ct_number {
+  position: absolute;
+  width: 3rem;
+  bottom: -0.5rem;
+  right: 0.3rem;
+  font-size: 0.3125rem;
+  /*height: 2.5rem;*/
+}
+.ct_num {
+  display: inline-block;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin: 0 0.2rem;
+  
+  
+}
+.ct_minus {
+  display: inline-block;
+  font-size: 0.34375rem;
+  font-weight: bolder;
+  color: #ff4300;
+  width: 0.78125rem;
+  line-height: 0.78125rem;
+  height: 0.78125rem;
+  border-radius: 50%;
+  border: 0.03125rem solid #ffbe89;
+  text-align: center;
+}
+.ct_add {
+  display: inline-block;
+  font-size: 0.34375rem;
+  font-weight: bolder;
+  color: #ff4300;
+  width: 0.78125rem;
+  height: 0.78125rem;
+  line-height: 0.78125rem;
+  border-radius: 50%;
+  border: 0.03125rem solid #ffbe89;
+  text-align: center;
+}
+.ct_select {
+	z-index: 30;
+  width: 0.9375rem;
+  height: 1.5rem;
+  text-align: center;
+  border-radius: 0.59375rem;
+  background: url(../img/select.png) no-repeat center 0.15625rem;
+  background-size: 0.625rem 0.625rem;
+  margin-top: 0.925rem;
+}
+.ct_price{
+	float: left;
+	margin-top:1.5rem;
+	height: 1rem;
+}
+.ct_choose{
+	margin: 0;
+	padding: 0;
+	height: 1.5rem;
+	width: 1.5rem;
+	float: left;
+	margin-top: -0.2rem;
+}
+.ct_select span{
+	float: left;
+	width: 1rem;
+	/*margin-top: 0.2rem;*/
+	margin-left: 1.5rem;
+	/*margin-bottom: 1rem;*/
+}
+.ct_selectOk {
+	width: 100%;
+	padding: 0 !important;
+  background-color: #fff;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  border-bottom: 0.3125rem solid #efefef;
+}
+.ct_selectOk div {
+  float: left;
+}
+.ct_selectOk .ct_priceAll {
+  color: #e7511c;
+}
+.ct_selectOk .ct_select {
+  margin-top: 0.234375rem;
+}
+.ct_selectOk .ct_ok {
+  text-align: center;
+  width: 3.75rem;
+  height:100%;
+  background-color: #ffd600;
+  float: right;
+  /*margin-top: -0.25rem;*/
+}
+.ct_total {
+	height: 100%;
+	float: left;
+  margin-left: 2.25rem;
+  /*margin-top: -0.1rem;*/
+}
+.ct_helpBottom{
+	height: 1.3rem;
+}

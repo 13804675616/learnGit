@@ -1,0 +1,112 @@
+html,
+body,
+div,
+p,
+span,
+dl,
+dt,
+dd,
+ul,
+li,
+a,
+header,
+footer,
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+section,
+img,
+input {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul,
+li {
+  list-style: none;
+}
+.clearfix {
+  clear: both;
+}
+.help {
+  height: 2.734375rem;
+}
+.title {
+  position: fixed;
+  height: 1.453125rem;
+  background-color: #f9fafd;
+  border-bottom: 0.03125rem solid #e0e0e0;
+}
+.title div {
+  float: left;
+  text-align: center;
+  height: 1.421875rem;
+  line-height: 1.453125rem;
+  font-size: 0.421875rem;
+  font-weight: bold;
+  font-family: "微软雅黑";
+}
+.title div:first-of-type {
+  width: 1.1875rem;
+}
+.title div:first-of-type img {
+  vertical-align: middle;
+  width: 0.40625rem;
+  height: 0.65625rem;
+}
+.title div:nth-of-type(2) {
+  width: 7.546875rem;
+  height: 100%;
+}
+.title div:last-of-type {
+  width: 1.265625rem;
+  height: 100%;
+}
+.title div:last-of-type img {
+  vertical-align: middle;
+  width: 0.625rem;
+  height: 0.671875rem;
+}
+nav {
+  position: fixed;
+  top: 1.453125rem;
+  width: 100%;
+  background-color: white;
+  height: 1.28125rem;
+  font-size: 0;
+  border-bottom: 0.03125rem solid #e0e0e0;
+}
+nav div {
+  font-size: 0.375rem;
+  float: left;
+  width: 20%;
+  height: 1.28125rem;
+  line-height: 1.28125rem;
+  text-align: center;
+}
+nav div:nth-of-type(2) {
+  color: #ff3800;
+  border-bottom: 0.0625rem solid #ff3800;
+  box-sizing: border-box;
+}
+.orderInfo p {
+  background: url(../img/zZ.png) no-repeat;
+  background-size: 2.5rem 2.5rem;
+  background-position: 3.765625rem 2.28125rem;
+  text-align: center;
+  height: 12.984375rem;
+  line-height: 10.9375rem;
+  font-size: 0.421875rem;
+  color: #999999;
+}

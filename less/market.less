@@ -1,0 +1,159 @@
+@import "reset";
+body{
+    overflow-y:hidden;
+}
+.help {
+    height: 110/64rem;
+}
+//左边分类
+.leftMenu {
+    float: left;
+    margin-right: 2/64rem;
+    width: 152/64rem;
+    font-size: 23/64rem;
+    color: #6d6d6d;
+    text-align: center;
+    background-color: #f8f8f8;
+    height: 100%;
+    overflow-y: auto;
+    li {
+        height: 96/64rem;
+        line-height: 96/64rem;
+        border-bottom: 2/64rem solid #e0e0e0;
+        position: relative;
+        span {
+            position: absolute;
+            left: 0;
+            top: 10%;
+            width: 10/64rem;
+            height: 70/64rem;
+            background-color: #ffd600;
+        }
+        img {
+            width: 65/64rem;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+}
+//右上角
+.kind {
+    z-index: 2;
+    position: fixed;
+    right: 0;
+    float: left;
+    text-align: center;
+    height: 47/32rem;
+    line-height: 47/32rem;
+    font-size: 22/64rem;
+    background-color: #fff;
+    color: #777777;
+    img {
+        width: 27/64rem;
+    }
+    li {
+        width: 120/32rem;
+        float: left;
+        border-bottom: 2/64rem solid #ddd;
+        &:first-of-type {
+            &:before {
+                content: "全部分类";
+            }
+        }
+        &:last-of-type {
+            &:before {
+                content: "综合排序";
+            }
+        }
+    }
+    span {
+        float: left;
+        height: 36/64rem;
+        margin-top: 28/64rem;
+        border-right: 2/64rem solid #ddd;
+    }
+}
+div.rightGoods {
+    width: 460/64rem;
+    height: 100%;
+    overflow-y: auto;
+    //右下角商品列表
+    .goods {
+        margin-left: 10/64rem;
+        width: 460/64rem;
+        float: left;
+        padding: 5/64rem;
+        box-sizing: border-box;
+        border-bottom: 2/64rem solid #e0e0e0;
+        &:first-of-type {
+          margin-top: 100/64rem;
+        }
+        &:last-of-type {
+          margin-bottom: 100/64rem;
+        }
+        dt {
+            float: left;
+            img {
+                width: 96/32rem;
+                height: 96/32rem;
+            }
+        }
+        dd {
+            margin-top: 2/64rem;
+            line-height: 48/64rem;
+            font-size: 22/64rem;
+            position: relative;
+            .title {
+                font-size: 22/64rem;
+                color: #000;
+            }
+            .tag {
+                span {
+                    border-radius: 6/64rem;
+                    padding: 5/64rem;
+                    &:first-of-type {
+                        color: red;
+                        margin-left: 5/64rem;
+                        border: 2/64rem solid red;
+                        background-color: #fff;
+                        margin-right: 15/64rem;
+                    }
+                    &:last-of-type {
+                        color: #fff;
+                        background-color: red;
+                    }
+                }
+            }
+            .weight {
+                font-size: 26/64rem;
+                color: #999;
+            }
+            .price {
+                span {
+                    &:first-of-type {
+                        color: red;
+                    }
+                    &:last-of-type {
+                        text-decoration: line-through;
+                    }
+                }
+            }
+            .add {
+                position: absolute;
+                right: 20/64rem;
+                bottom: 20/64rem;
+                width: 60/64rem;
+                height: 60/64rem;
+                text-align: center;
+                color: red;
+                font-weight: bold;
+                font-size: 40/64rem;
+                line-height: 60/64rem;
+                border-radius: 50%;
+                border: 2/64rem solid #e0e0e0;
+            }
+        }
+    }
+}
+@import "tabBar";

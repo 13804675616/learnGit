@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<title>积分商城</title>
+		
+		<link rel="stylesheet/less" href="../less/myPointCity.less" />
+	    <script src="../js/less.js"></script>
+	</head>
+	<body>
+		<div id="box">
+			<div class="title">
+				<span></span> 
+				积分商城
+			</div>
+			<p class="help"></p>
+			<!--可用积分-->
+			<div class="availableIntegral">
+			    <div class="outer">
+			    	<div class="inner">
+			    		<p>可用积分</p>
+			            <p>1</p>
+			    	</div>
+			    </div>
+			</div>
+			
+			<!--上面三个图标-->
+			<div class="integral">
+			    <dl>
+			    	<dt><img src="../img/integralInfo.png"/></dt>
+			    	<dd>积分明细</dd>
+			    </dl>
+			    <dl>
+			    	<dt><img src="../img/exchange.png"/></dt>
+			    	<dd>兑换记录</dd>
+			    </dl>
+			    <dl>
+			    	<dt><img src="../img/integralRule.png"/></dt>
+			    	<dd>积分规则</dd>
+			    </dl>
+			    
+			
+			</div>
+			
+			
+			<div class="ticket">
+				<div>
+				    <p>3元积分兑换券</p>
+				    <p>300积分</p>
+				</div>
+				<div>
+				    <p>5元积分兑换券</p>
+				    <p>500积分</p>
+				</div>
+				<div>
+				    <p>8元积分兑换券</p>
+				    <p>800积分</p>
+				</div>
+				<div>
+				    <p>10元积分兑换券</p>
+				    <p>1000积分</p>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+	</body>
+
+		<script>
+			(function(window){
+				var winW = document.documentElement.clientWidth||document.body.clientWidth;
+				document.documentElement.style.fontSize = winW / 10 + "px";
+				
+				window.onresize = function(){
+					var winW = document.documentElement.clientWidth ||document.body.clientWidth;
+					document.documentElement.style.fontSize=winW / 10 + "px";
+				}
+				
+			}(window))
+		</script>
+</html>

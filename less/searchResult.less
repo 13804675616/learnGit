@@ -1,0 +1,223 @@
+@import "reset";
+body{
+    font-family: "微软雅黑";
+    background-color: #efefef;
+}
+.help{
+    height: 90/64rem;
+}
+//这是搜索框的头部
+header{
+    width: 100%;
+    letter-spacing: 2/64rem;
+    position: fixed;
+    background-color: #f9fafd;
+    height: 90/64rem;
+    text-align: center;
+    border-bottom: 2/64rem solid #e0e0e0;
+// 返回图标。
+    span{
+        vertical-align: middle;
+        background: url(../img/go-left.png) no-repeat;
+        background-size: 25/64rem 43/64rem;
+        display: inline-block;
+        width: 28/64rem;
+        height: 40/64rem;
+        line-height: 40/64rem;
+        margin-right: 26/64rem;
+        margin-bottom: 12/64rem;
+       
+    }
+//  输入框
+    input{
+        vertical-align: middle;
+        width: 396/64rem;
+        height: 52/64rem;
+        border-radius: 10/64rem;
+        border:2/64rem solid #e0e0e0;
+         margin-bottom: 13/64rem;
+        text-indent: 49/64rem;
+        background: url(../img/search.png)no-repeat;
+        background-size: 26/64rem 27/64rem;
+        background-position: 13/64rem 14/64rem;
+        font-size: 25/64rem;
+    }
+//  刷新图标、
+    a{
+        float: right;
+        margin-top: 30/64rem;
+        margin-right: 50/64rem;
+        display: inline-block;
+        font-family: "华文细黑";
+        color: #777777;
+        font-size: 27/64rem;
+//      margin-left: 21/64rem;
+        
+    }
+}
+
+
+.result{
+    font-size: 0;
+//  background-color: red;
+//  background-color: red;
+    overflow: hidden;
+    padding:19/64rem;
+    border: 1/64rem solid transparent;
+    
+   
+}
+.result>div{
+        font-size: 22/64rem;
+        width: 289/64rem;
+        height: 452/64rem;
+//      background-color: yellow;
+        float: left;
+        background-color: white;
+        margin-bottom: 20/64rem;
+}
+    
+.result>div:first-of-type{
+//  background-color: yellow;
+    .picture{
+        height: 273/64rem;
+        background:url(../img/mooncake1.jpg) no-repeat;
+        background-size: 100% 100%;
+        
+    }
+}
+.result>div:nth-of-type(2){
+//  background-color: green;
+    .picture{
+        height: 273/64rem;
+        background:url(../img/mooncake1.jpg) no-repeat;
+        background-size: 100% 100%;
+        
+        
+    }
+}
+.result>div:nth-of-type(3){
+//  background-color: green;
+    .picture{
+        height: 273/64rem;
+        background:url(../img/mooncake1.jpg) no-repeat;
+        background-size: 100% 100%;
+        
+        
+    }
+}
+
+.result>div:nth-child(2n){
+    margin-left: 20/64rem;
+    .picture{
+        height: 273/64rem;
+        background:url(../img/mooncake2.jpg) no-repeat;
+        background-size: 100% 100%;
+        
+        
+    }
+}
+.name{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 50/64rem;
+    line-height: 50/64rem;
+    margin-left: 12/64rem;
+    font-size:21/64rem;
+    color: #232b33;
+    
+}
+.goodSelect{
+    margin-left: 12/64rem;
+    border-radius: 8/64rem;
+    border:2/64rem solid #ff0000;
+    width: 53/64rem;
+    height: 26/64rem;
+    color: #ff0000;
+}
+.price{
+    height: 50/64rem;
+    line-height: 50/64rem;
+    margin-left: 12/64rem;
+    font-size: 21/64rem;
+    color: #999999;
+    
+}
+.priceInfo{
+//  font-family: "华文细黑";
+    margin-left:12/64rem;
+    font-size: 18/64rem;
+    color: #b0b0b0;
+    text-decoration: line-through;
+    .priceNum{
+//      font-size: 18/64rem;
+     display: inline-block;
+     margin-right: 7/64rem;
+        color: #ff400b;
+        text-decoration:none;
+    }
+    .remedy{
+        font-size: 22/64rem;
+        color: #ff4400;
+        float: right;
+        margin-right: 22/64rem;
+        text-decoration:none;
+    }
+    
+}
+
+
+
+.noMore{
+
+    p{
+
+        line-height: 100/64rem;
+        margin-top: 40/64rem;
+//      background-color: red;
+        text-align: center;
+        color: #b0b0b0;
+        font-size: 30/64rem;
+        margin-bottom: 50/64rem;
+    }
+}
+
+
+
+//以下是右下角的购物车图标
+
+//html{
+// position: relative; 
+//}
+.outer{
+    position: fixed;
+    right: 20/64rem;
+    bottom: 20/64rem;
+    width: 70.8/32rem;
+    height: 70.8/32rem;
+    background-color: #FFD600;
+    border-radius: 50%;
+    border: 2/64rem solid #fff;
+    text-align: center;
+    img{
+        margin-top: 15/64rem;
+        width: 110/64rem;
+        height: 110/64rem;
+        
+    }
+
+    .inner{
+        position: absolute;
+        left:100/64rem;
+        top: 0;
+        width: 21.59/32rem;
+        height: 21/32rem;
+        line-height: 21/32rem;
+        color: #fff;
+        background-color: #ff4400;
+        border-radius: 50%;
+        font-size: 23/64rem;
+        font-weight: bold;
+    }
+}
